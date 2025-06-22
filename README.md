@@ -1,1 +1,1 @@
-# qa-portfolio-easypay-ui-api
+# qa-portfolio-ui-api
