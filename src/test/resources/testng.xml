@@ -6,7 +6,7 @@
 
     <test name = "API">
         <classes>
-            <class name="api.tests.UserTest"/>
+            <class name="api.tests.users.UserTest"/>
         </classes>
     </test>
 
