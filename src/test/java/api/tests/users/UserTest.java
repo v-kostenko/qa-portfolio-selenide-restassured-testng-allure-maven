@@ -2,6 +2,7 @@ package api.tests.users;
 
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
+import io.qameta.allure.Owner;
 import io.restassured.RestAssured;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -14,6 +15,7 @@ public class UserTest extends BaseApiTest {
 
 
     @Test()
+    @Owner("Volodymyr Kostenko")
     public void getNotAuthUser() {
         given().spec(specification)
                 .when().get("/user")
